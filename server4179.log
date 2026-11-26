@@ -1,0 +1,6 @@
+[31merror when starting preview server:
+Error: Port 4179 is already in use
+    at httpServerStart (file:///C:/Users/nada/Documents/%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%A7%D9%84%D8%A7%D9%81%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A/ebtisam-portfolio/node_modules/vite/dist/node/chunks/node.js:14661:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async preview (file:///C:/Users/nada/Documents/%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%A7%D9%84%D8%A7%D9%81%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A/ebtisam-portfolio/node_modules/vite/dist/node/chunks/node.js:35859:2)
+    at async CAC.<anonymous> (file:///C:/Users/nada/Documents/%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%A7%D9%84%D8%A7%D9%81%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A/ebtisam-portfolio/node_modules/vite/dist/node/cli.js:821:18)[39m
