@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="فجر — تصميم توضيحي">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F1E30"/><stop offset="0.55" stop-color="#1E3550"/><stop offset="1" stop-color="#4A5C70"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0D98A"/><stop offset="1" stop-color="#C9A227"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.9" r="0.8">
+      <stop offset="0" stop-color="#8DD9E8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8DD9E8" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="cm"><rect width="800" height="520" fill="#000"/><circle cx="470" cy="215" r="66" fill="#fff"/><circle cx="508" cy="196" r="60" fill="#000"/></mask>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <rect width="800" height="520" fill="url(#glow)"/>
+  <circle cx="470" cy="215" r="66" fill="url(#gold)" mask="url(#cm)"/>
+  <path d="M560 160l4 11 11 4-11 4-4 11-4-11-11-4 11-4z" fill="#F0D98A" opacity="0.9"/>
+  <circle cx="300" cy="300" r="3" fill="#FFFDF8" opacity="0.7"/>
+  <circle cx="360" cy="360" r="2.4" fill="#FFFDF8" opacity="0.5"/>
+  <circle cx="600" cy="330" r="2.6" fill="#FFFDF8" opacity="0.55"/>
+  <circle cx="250" cy="180" r="2.2" fill="#FFFDF8" opacity="0.5"/>
+  <rect x="0" y="430" width="800" height="90" fill="#0C1725" opacity="0.55"/>
+  <text x="400" y="285" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="6" fill="#FFFDF8" opacity="0.95">FAJR</text>
+  <text x="400" y="330" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="20" fill="#8DD9E8" opacity="0.9">فجر · صلاتك نور يومك</text>
+</svg>
