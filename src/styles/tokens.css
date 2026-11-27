@@ -1,0 +1,69 @@
+:root {
+  /* Color — icy blue, blush, warm off-white, blue-gray, deep navy */
+  --ink-950: #081927;
+  --ink-900: #0d2234;
+  --ink-800: #143049;
+  --ink-700: #28475e;
+  --ink-600: #526d80;
+  --ink-500: #5c7486;
+
+  --ice-50: #f9fcfe;
+  --ice-100: #f1f8fc;
+  --ice-200: #e4f1f8;
+  --ice-300: #d2e8f3;
+  --ice-400: #b9dbea;
+  --ice-500: #9ac8dd;
+  --ice-600: #76a9c1;
+
+  --blush-50: #fdf8f9;
+  --blush-100: #faf0f2;
+  --blush-200: #f3dfe4;
+  --blush-300: #eacbd3;
+  --blush-400: #dcb2bf;
+
+  --warm-50: #fdfbf7;
+  --warm-100: #faf7f1;
+  --warm-200: #f4eee5;
+  --cream-100: #f5ebdd;
+  --cream-200: #efe2d0;
+  --cream-300: #e6d6c0;
+
+  --white: #ffffff;
+  --glass: rgba(255, 255, 255, 0.56);
+  --glass-strong: rgba(255, 255, 255, 0.76);
+  --glass-dark: rgba(9, 31, 48, 0.42);
+  --border: rgba(26, 61, 86, 0.12);
+  --border-soft: rgba(26, 61, 86, 0.07);
+  --border-light: rgba(255, 255, 255, 0.74);
+
+  /* Type */
+  --font-ui: 'Manrope', 'Segoe UI', sans-serif;
+  --font-arabic-body: 'IBM Plex Sans Arabic', 'Segoe UI', sans-serif;
+  --font-arabic-display: 'Alexandria', 'IBM Plex Sans Arabic', sans-serif;
+  --font-display: 'Cormorant Garamond', 'Times New Roman', serif;
+
+  /* Spatial system */
+  --container: 1470px;
+  --gutter: clamp(1.25rem, 4.2vw, 4.75rem);
+  --header-height: 5.35rem;
+  --deck-controls-height: 4.9rem;
+  --deck-transition: 460ms;
+  --radius-sm: 0.75rem;
+  --radius-md: 1.125rem;
+  --radius-lg: 1.75rem;
+  --radius-pill: 999px;
+
+  /* Depth */
+  --shadow-soft: 0 1.5rem 4rem rgba(19, 51, 75, 0.08);
+  --shadow-panel:
+    0 1rem 2.5rem rgba(20, 55, 80, 0.08),
+    0 0.125rem 0.5rem rgba(20, 55, 80, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --shadow-action:
+    0 1rem 2rem rgba(12, 38, 57, 0.18),
+    0 0.25rem 0.75rem rgba(12, 38, 57, 0.12);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-soft: cubic-bezier(0.33, 1, 0.68, 1);
+}
